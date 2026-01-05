@@ -15,60 +15,44 @@ Attendance is recorded in real time and uploaded to Google Sheets, reducing erro
 - Educational Institutions – centralized cloud records
 
 ## Features
-1. RFID-Based Identification
+1. RFID-Based Identification:
 Each student is assigned a unique RFID card (UID) used for identification.
-2. Student Data Mapping
+2. Student Data Mapping:
 Student details (name, roll number, class/section) are mapped to RFID UIDs.
-3. Attendance Verification
-Displays student name and status on LCD
-Records date & time automatically
-Uploads attendance to Google Sheets
-4. Duplicate Scan Detection
+3. Attendance Verification:
+- Displays student name and status on LCD
+- Records date & time automatically
+- Uploads attendance to Google Sheets
+4. Duplicate Scan Detection:
 Prevents multiple attendance entries for the same card.
-5. Audio & Visual Feedback
-Green LED + short beep → Valid scan
-Red LED + double beep → Duplicate scan
-6. Cloud Integration
+5. Audio & Visual Feedback:
+- Green LED + short beep → Valid scan
+- Red LED + double beep → Duplicate scan
+6. Cloud Integration:
 Attendance is uploaded via Wi-Fi to Google Sheets using Google Apps Script.
 
 ## Hardware Components
-ESP32 Microcontroller
-
-RFID Reader (RC522)
-
-RFID Cards
-
-OLED / I2C LCD Display
-
-LEDs (Red & Green)
-
-Buzzer
-
-Breadboard & Jumper Wires
-
-USB Power Cable
+- ESP32 Microcontroller
+- RFID Reader (RC522)
+- RFID Cards
+- OLED / I2C LCD Display
+- LEDs (Red & Green)
+- Buzzer
+- Breadboard & Jumper Wires
+- USB Power Cable
 
 ## Software & Tools
-
-Visual Studio Code
-
-PlatformIO
-
-Google Apps Script
-
-Google Sheets
+- Visual Studio Code
+- PlatformIO
+- Google Apps Script
+- Google Sheets
 
 ## Libraries Used
-
-MFRC522
-
-WiFi
-
-HTTPClient
-
-LiquidCrystal_I2C
-
-time.h
+- MFRC522
+- WiFi
+- HTTPClient
+- LiquidCrystal_I2C
+- time.h
 
 ## Connections
 # RFID RC522 Connections
