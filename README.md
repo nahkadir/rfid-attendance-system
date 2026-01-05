@@ -20,7 +20,7 @@ Each student is assigned a unique RFID card (UID) used for identification.
 2. Student Data Mapping:
 Student details (name, roll number, class/section) are mapped to RFID UIDs.
 3. Attendance Verification:
-  - Displays student name and status on LCD
+  -- Displays student name and status on LCD
   - Records date & time automatically
   - Uploads attendance to Google Sheets
 4. Duplicate Scan Detection:
